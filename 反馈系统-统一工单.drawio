@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T02:36:27.263Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hz07NWI59R4FBBjlq2XH" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T02:42:30.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="y5NV8EG7a39aNT3_oPWk" version="21.3.6" type="github">
   <diagram name="第 1 页" id="loO8J_f7rhpcHcMpDg0o">
-    <mxGraphModel dx="2501" dy="830" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="1999" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-1" value="&lt;font color=&quot;#660033&quot; style=&quot;font-size: 23px; background-color: rgb(255, 214, 233);&quot;&gt;统一工单(抽象)&lt;/font&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;sketch=1;curveFitting=1;jiggle=2;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="283" y="169" width="589" height="673" as="geometry" />
+          <mxGeometry x="249" y="277" width="589" height="673" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-2" value="&lt;font color=&quot;#0000cc&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 20px; background-color: rgb(213, 232, 212);&quot;&gt;各类工单集合&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="DDXEKQqKeJ_g27bmDHw1-1" vertex="1">
           <mxGeometry y="30" width="589" height="30" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry y="60" width="589" height="613" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-35" value="one_order_state&lt;br&gt;状态表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="-117" y="358" width="256" height="154" as="geometry" />
+          <mxGeometry x="-122" y="239" width="256" height="154" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-44" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DDXEKQqKeJ_g27bmDHw1-35" vertex="1" connectable="0">
           <mxGeometry y="30" width="256" height="124" as="geometry" />
@@ -32,27 +32,37 @@
           <mxGeometry width="245" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-39" value="one_order_action&lt;br&gt;统一工单状态流转表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1034" y="84" width="264" height="196" as="geometry" />
+          <mxGeometry x="551" y="-152" width="264" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="St-OOA5hJc_-iNM7Ovjj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="DDXEKQqKeJ_g27bmDHw1-39" source="DDXEKQqKeJ_g27bmDHw1-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="292" y="511" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="394" y="113" />
+              <mxPoint x="394" y="511" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St-OOA5hJc_-iNM7Ovjj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;fillColor=#76608a;strokeColor=#432D57;exitX=-0.004;exitY=0.759;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="DDXEKQqKeJ_g27bmDHw1-39" source="DDXEKQqKeJ_g27bmDHw1-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-417" y="151" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-231" y="156" />
+              <mxPoint x="-231" y="152" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-40" value="&lt;div&gt;&amp;nbsp; `id` bigint(20) AUTO_INCREMENT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `oid` bigint(20) COMMENT &#39;隶属工单&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `old_state` int(11) COMMENT &#39;先前状态&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `new_state` int(11) COMMENT &#39;更新后状态&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `handler` varchar(30) COMMENT &#39;操作人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `old_handler` COMMENT &#39;旧处理人&#39;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; font-size: 12px; font-family: Helvetica;&quot;&gt;&amp;nbsp; `new_handler` (100) COMMENT &#39;新处理人&#39;,&lt;/div&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc0000&quot;&gt;template_id bigint COMMENT &#39;工单类型‘’&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;border-color: var(--border-color); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-size: 12px; font-family: Helvetica;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; PRIMARY KEY (`id`),&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; KEY `index_oid` (`oid`) USING BTREE&lt;/div&gt;" style="text;strokeColor=#36393d;fillColor=#cdeb8b;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-39" vertex="1">
           <mxGeometry y="30" width="264" height="166" as="geometry" />
         </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;strokeWidth=2;strokeColor=#9AC7BF;exitX=-0.008;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-40" target="DDXEKQqKeJ_g27bmDHw1-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;fillColor=#6d8764;strokeColor=#3A5431;entryX=1.007;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-48" target="DDXEKQqKeJ_g27bmDHw1-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="945" y="466" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-48" value="one_work_order_file&lt;br&gt;统一工单文件表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
-          <mxGeometry x="1034" y="342" width="270" height="192" as="geometry" />
+          <mxGeometry x="551" y="84" width="273" height="174" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-49" value="&lt;div&gt;`id` bigint(11) NOT NULL ,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `work_order_id` bigint(11) ,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `file_name` varchar(255) COMMENT &#39;文件名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `upload_person` (255) COMMENT &#39;上传人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time` datetime COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `upload_time` datetime COMMENT &#39;上传时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `origin_file_name` (255) COMMENT &#39;原文件名&#39;,&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; font-size: 12px; font-family: Helvetica;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc0000&quot;&gt;template_id bigint COMMENT &#39;工单类型‘’&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#B09500;fillColor=#e3c800;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;fontColor=#000000;" parent="DDXEKQqKeJ_g27bmDHw1-48" vertex="1">
-          <mxGeometry y="30" width="270" height="162" as="geometry" />
+          <mxGeometry y="30" width="273" height="144" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-65" value="one_order_template&lt;br&gt;工单模板表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="-123" y="84" width="256" height="154" as="geometry" />
+          <mxGeometry x="-118" y="-44" width="256" height="154" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-66" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DDXEKQqKeJ_g27bmDHw1-65" vertex="1" connectable="0">
           <mxGeometry y="30" width="256" height="124" as="geometry" />
@@ -69,15 +79,19 @@
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-70" value="id" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-66" vertex="1">
           <mxGeometry width="245" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.004;exitY=0.039;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#a0522d;strokeColor=#6D1F00;curved=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-4" target="DDXEKQqKeJ_g27bmDHw1-68" edge="1">
+        <mxCell id="DDXEKQqKeJ_g27bmDHw1-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.004;exitY=0.039;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#a0522d;strokeColor=#6D1F00;curved=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-4" target="DDXEKQqKeJ_g27bmDHw1-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#76608a;strokeColor=#432D57;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-37" target="DDXEKQqKeJ_g27bmDHw1-70" edge="1">
+        <mxCell id="DDXEKQqKeJ_g27bmDHw1-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#76608a;strokeColor=#432D57;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-37" target="DDXEKQqKeJ_g27bmDHw1-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-168" y="171" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-177" y="433" />
+              <mxPoint x="-173" y="314" />
+              <mxPoint x="-173" y="273" />
+              <mxPoint x="-177" y="273" />
               <mxPoint x="-177" y="129" />
+              <mxPoint x="-163" y="129" />
+              <mxPoint x="-163" y="1" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -85,7 +99,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-79" value="one_order_dict&lt;br&gt;字典表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="-123" y="598" width="256" height="154" as="geometry" />
+          <mxGeometry x="-127" y="474" width="256" height="154" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-80" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DDXEKQqKeJ_g27bmDHw1-79" vertex="1" connectable="0">
           <mxGeometry y="30" width="256" height="124" as="geometry" />
@@ -102,13 +116,40 @@
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-84" value="id" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-80" vertex="1">
           <mxGeometry width="245" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#a0522d;strokeColor=#6D1F00;curved=1;sketch=1;curveFitting=1;jiggle=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-81" edge="1" target="DDXEKQqKeJ_g27bmDHw1-70">
+        <mxCell id="DDXEKQqKeJ_g27bmDHw1-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#a0522d;strokeColor=#6D1F00;curved=1;sketch=1;curveFitting=1;jiggle=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-81" edge="1" target="DDXEKQqKeJ_g27bmDHw1-70">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-153" y="183" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-238" y="737" />
+              <mxPoint x="-125" y="621" />
+              <mxPoint x="-185" y="621" />
+              <mxPoint x="-185" y="436" />
+              <mxPoint x="-238" y="436" />
               <mxPoint x="-238" y="139" />
-              <mxPoint x="-123" y="139" />
+              <mxPoint x="-193" y="139" />
+              <mxPoint x="-193" y="-49" />
+              <mxPoint x="-118" y="-49" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St-OOA5hJc_-iNM7Ovjj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=1.003;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#a0522d;strokeColor=#6D1F00;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" target="DDXEKQqKeJ_g27bmDHw1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="859" y="349" as="targetPoint" />
+            <mxPoint x="833" y="148" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="886" y="148" />
+              <mxPoint x="886" y="243" />
+              <mxPoint x="858" y="243" />
+              <mxPoint x="858" y="356" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="St-OOA5hJc_-iNM7Ovjj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#a0522d;strokeColor=#6D1F00;curved=1;sketch=1;curveFitting=1;jiggle=2;exitX=-0.015;exitY=0.854;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="DDXEKQqKeJ_g27bmDHw1-49" target="DDXEKQqKeJ_g27bmDHw1-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249" y="23" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="547" y="192" />
+              <mxPoint x="250" y="192" />
+              <mxPoint x="250" y="-5" />
             </Array>
           </mxGeometry>
         </mxCell>
