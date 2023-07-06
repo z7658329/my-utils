@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T02:48:27.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kfEcFFAuA2iepPGR3Euo" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T07:03:09.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9c-Tek_WHSLOg2VFzltt" version="21.5.2" type="github">
   <diagram name="第 1 页" id="loO8J_f7rhpcHcMpDg0o">
-    <mxGraphModel dx="2713" dy="1999" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2501" dy="1965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,28 +13,10 @@
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-4" value="&lt;div&gt;&amp;nbsp; `id` bigint(20) AUTO_INCREMENT,&lt;/div&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc0000&quot;&gt;template_id bigint COMMENT &#39;工单类型‘’&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; `anchor_hyid` varchar(30)COMMENT &#39;主播虎牙号&#39;,&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; `anchor_name` varchar(30)COMMENT &#39;主播昵称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `room_id` varchar(15)COMMENT &#39;直播间号&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `room_url` varchar(100)COMMENT &#39;直播间地址&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `client_type` varchar(10) COMMENT &#39;客户端类型: adr/ios/pc&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fault_type` varchar(30) COMMENT &#39;故障类型&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fault_time`&amp;nbsp; COMMENT &#39;故障时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fault_source` int(11) COMMENT &#39;故障来源 &#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `description` text COMMENT &#39;问题描述&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `handler` varchar(100)COMMENT &#39;处理人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `state` int(11) COMMENT &#39;状态&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_time`&amp;nbsp; COMMENT &#39;创建时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `create_by` varchar(50)COMMENT &#39;创建人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `resolve_time` COMMENT &#39;解决时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `reasons` text COMMENT &#39;问题原因&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `solution` text COMMENT &#39;解决措施&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `additional` text COMMENT &#39;信息备注&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `sync_av` bit(1)&amp;nbsp; b&#39;0&#39; COMMENT &#39;是否同步到音视频工单&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ai_tid` bigint(20)COMMENT &#39;ai定位的id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ai_result` bit(1)&amp;nbsp; b&#39;0&#39; COMMENT &#39;ai定位结果成功与否&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `ai_content` text COMMENT &#39;ai分析结果&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `anchor_query_flag` bit(1)&amp;nbsp; b&#39;1&#39; COMMENT &#39;是否已经异步&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `type` int(11)&amp;nbsp; &#39;0&#39; COMMENT &#39;工单类型&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `notify_finish` bit(1)&amp;nbsp; b&#39;0&#39; COMMENT &#39;是否已完成通知&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `callback_id` bigint(20)&amp;nbsp; &#39;0&#39; COMMENT &#39;回调id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `game_name` varchar(30)COMMENT &#39;品类名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fault_belong` varchar(15)COMMENT &#39;故障归属&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fault_reason_type` varchar(30)COMMENT &#39;故障根因归类&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `miss_test` bit(1)&amp;nbsp; b&#39;0&#39; COMMENT &#39;是否漏测&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `important` bit(1)&amp;nbsp; b&#39;0&#39; COMMENT &#39;是否是重点保障主播&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `influence` text COMMENT &#39;影响面&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `alarm` int(11)&amp;nbsp; &#39;-1&#39; COMMENT &#39;告警类型&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `recovery_time` COMMENT &#39;恢复时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `recovery_method` text COMMENT &#39;恢复手段&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `top_type` int(11)&amp;nbsp; &#39;-1&#39; COMMENT &#39;topn类型&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `handler_department` varchar(256)&amp;nbsp; NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `notice_nums` int(10)&amp;nbsp; &#39;0&#39; COMMENT &#39;重点主播延时&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `work_time` doubleCOMMENT &#39;工单处理时长（小时为单位）&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `fault_severity` varchar(255)COMMENT &#39;故障严重等级&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `weiyiid` bigint(20)COMMENT &#39;tapd需求对应id&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `biz_type` int(11)&amp;nbsp; NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `main_tips` varchar(400)COMMENT &#39;主报表链接&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `sub_tips` varchar(400)COMMENT &#39;子报表链接&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `context` text COMMENT &#39;告警上下文(音视频推送进来)&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `feedback_nums` int(11)&amp;nbsp; &#39;0&#39; COMMENT &#39;反馈数量/人数&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `user_feedback_time`&amp;nbsp; COMMENT &#39;用户反馈时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `assistant_feedback_time`&amp;nbsp; COMMENT &#39;客服反馈时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `affect_business` varchar(200)COMMENT &#39;影响业务&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `response_time` COMMENT &#39;响应时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `happen_start_time` COMMENT &#39;多发故障起始时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `happen_end_time` COMMENT &#39;多发故障结束时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `dept` varchar(50) COMMENT &#39;部门&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `group_name` varchar(50) COMMENT &#39;组名&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `persons` varchar(1000) COMMENT &#39;值班人员列表, 逗号分隔&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `schedule_type` int(11)&amp;nbsp; &#39;0&#39; COMMENT &#39;排班方式&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `wxg_robot_sdk` varchar(500)COMMENT &#39;微信群机器人&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `category` varchar(200) COMMENT &#39;品类名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `activity_name` varchar(200) COMMENT &#39;活动名称&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `feedback_time` COMMENT &#39;反馈时间&#39;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; `modify_time` COMMENT &#39;修改时间&#39;,&lt;/div&gt;" style="text;strokeColor=#B09500;fillColor=#e3c800;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontColor=#000000;fontStyle=1" parent="DDXEKQqKeJ_g27bmDHw1-1" vertex="1">
           <mxGeometry y="60" width="589" height="613" as="geometry" />
         </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-35" value="one_order_state&lt;br&gt;状态表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="-122" y="239" width="256" height="154" as="geometry" />
-        </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-44" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DDXEKQqKeJ_g27bmDHw1-35" vertex="1" connectable="0">
-          <mxGeometry y="30" width="256" height="124" as="geometry" />
-        </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-43" value="order&amp;nbsp; 顺序" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-44" vertex="1">
-          <mxGeometry x="2" y="94" width="247" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-37" value="&lt;b&gt;&lt;font color=&quot;#cc0000&quot;&gt;template_id bigint COMMENT &#39;工单类型‘’&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-44" vertex="1">
-          <mxGeometry y="30" width="246" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-38" value="state&amp;nbsp; 状态" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-44" vertex="1">
-          <mxGeometry x="2" y="64" width="246" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-36" value="id" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-44" vertex="1">
-          <mxGeometry width="245" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-39" value="one_order_action&lt;br&gt;统一工单状态流转表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="551" y="-152" width="264" height="196" as="geometry" />
         </mxCell>
-        <mxCell id="St-OOA5hJc_-iNM7Ovjj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="DDXEKQqKeJ_g27bmDHw1-39" source="DDXEKQqKeJ_g27bmDHw1-40">
+        <mxCell id="St-OOA5hJc_-iNM7Ovjj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" parent="DDXEKQqKeJ_g27bmDHw1-39" source="DDXEKQqKeJ_g27bmDHw1-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="292" y="511" as="targetPoint" />
             <Array as="points">
@@ -43,7 +25,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="St-OOA5hJc_-iNM7Ovjj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;fillColor=#76608a;strokeColor=#432D57;exitX=-0.004;exitY=0.759;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="DDXEKQqKeJ_g27bmDHw1-39" source="DDXEKQqKeJ_g27bmDHw1-40">
+        <mxCell id="St-OOA5hJc_-iNM7Ovjj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;fillColor=#76608a;strokeColor=#432D57;exitX=-0.004;exitY=0.759;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" parent="DDXEKQqKeJ_g27bmDHw1-39" source="DDXEKQqKeJ_g27bmDHw1-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-417" y="151" as="targetPoint" />
             <Array as="points">
@@ -82,29 +64,13 @@
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.004;exitY=0.039;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#a0522d;strokeColor=#6D1F00;curved=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-4" target="DDXEKQqKeJ_g27bmDHw1-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;fillColor=#76608a;strokeColor=#432D57;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-37" target="DDXEKQqKeJ_g27bmDHw1-70" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-168" y="171" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-173" y="314" />
-              <mxPoint x="-173" y="273" />
-              <mxPoint x="-177" y="273" />
-              <mxPoint x="-177" y="129" />
-              <mxPoint x="-163" y="129" />
-              <mxPoint x="-163" y="1" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fillColor=#6d8764;strokeColor=#3A5431;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-38" target="DDXEKQqKeJ_g27bmDHw1-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-79" value="one_order_dict&lt;br&gt;字典表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="-127" y="474" width="256" height="154" as="geometry" />
+          <mxGeometry x="-113" y="297" width="261" height="154" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-80" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DDXEKQqKeJ_g27bmDHw1-79" vertex="1" connectable="0">
-          <mxGeometry y="30" width="256" height="124" as="geometry" />
+          <mxGeometry y="30" width="261" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-81" value="&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc0000&quot;&gt;template_id bigint COMMENT &#39;工单类型‘’&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-80" vertex="1">
+        <mxCell id="DDXEKQqKeJ_g27bmDHw1-81" value="&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc0000&quot;&gt;template_id bigint COMMENT &#39;工单类型‘’&amp;nbsp;&lt;br&gt;type&amp;nbsp; varchar&amp;nbsp; 类型 ：故障类型，支付类型等&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-80" vertex="1">
           <mxGeometry x="2" y="94" width="247" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-82" value="key" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-80" vertex="1">
@@ -116,14 +82,15 @@
         <mxCell id="DDXEKQqKeJ_g27bmDHw1-84" value="id" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" parent="DDXEKQqKeJ_g27bmDHw1-80" vertex="1">
           <mxGeometry width="245" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DDXEKQqKeJ_g27bmDHw1-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#a0522d;strokeColor=#6D1F00;curved=1;sketch=1;curveFitting=1;jiggle=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-81" edge="1" target="DDXEKQqKeJ_g27bmDHw1-70">
+        <mxCell id="DDXEKQqKeJ_g27bmDHw1-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#a0522d;strokeColor=#6D1F00;curved=1;sketch=1;curveFitting=1;jiggle=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-81" target="DDXEKQqKeJ_g27bmDHw1-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-153" y="183" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-125" y="621" />
-              <mxPoint x="-185" y="621" />
-              <mxPoint x="-185" y="436" />
-              <mxPoint x="-238" y="436" />
+              <mxPoint x="-125" y="436" />
+              <mxPoint x="-125" y="366" />
+              <mxPoint x="-185" y="366" />
+              <mxPoint x="-185" y="304" />
+              <mxPoint x="-238" y="304" />
               <mxPoint x="-238" y="139" />
               <mxPoint x="-193" y="139" />
               <mxPoint x="-193" y="-49" />
@@ -131,7 +98,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="St-OOA5hJc_-iNM7Ovjj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=1.003;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#a0522d;strokeColor=#6D1F00;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" target="DDXEKQqKeJ_g27bmDHw1-4">
+        <mxCell id="St-OOA5hJc_-iNM7Ovjj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=1.003;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#a0522d;strokeColor=#6D1F00;sketch=1;curveFitting=1;jiggle=2;" parent="1" target="DDXEKQqKeJ_g27bmDHw1-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="859" y="349" as="targetPoint" />
             <mxPoint x="833" y="148" as="sourcePoint" />
@@ -143,7 +110,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="St-OOA5hJc_-iNM7Ovjj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#a0522d;strokeColor=#6D1F00;curved=1;sketch=1;curveFitting=1;jiggle=2;exitX=-0.015;exitY=0.854;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="DDXEKQqKeJ_g27bmDHw1-49" target="DDXEKQqKeJ_g27bmDHw1-65">
+        <mxCell id="St-OOA5hJc_-iNM7Ovjj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#a0522d;strokeColor=#6D1F00;curved=1;sketch=1;curveFitting=1;jiggle=2;exitX=-0.015;exitY=0.854;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="DDXEKQqKeJ_g27bmDHw1-49" target="DDXEKQqKeJ_g27bmDHw1-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="249" y="23" as="targetPoint" />
             <Array as="points">
@@ -152,6 +119,14 @@
               <mxPoint x="250" y="-5" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DWvGmLpqkS-ezbX6n26Y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="DWvGmLpqkS-ezbX6n26Y-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="137" y="106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWvGmLpqkS-ezbX6n26Y-1" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;{&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;dataType&quot;: &quot;Varchar&quot;,&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;                              &amp;nbsp; &lt;/span&gt;&lt;/span&gt;&quot;key&quot;: &quot;user_name&quot;,&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;                             &amp;nbsp; &lt;/span&gt;&lt;/span&gt;&quot;value&quot;: &quot;用户名称&quot;,&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;                        &amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;place&quot;: &quot;位置&quot;,&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;                          &amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;type&quot;: &quot;selector&quot;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;}&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-249" y="117" width="268" height="123" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
