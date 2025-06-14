@@ -11,7 +11,7 @@
           <mxGeometry x="210" width="210" height="540" as="geometry" />
         </mxCell>
         <mxCell id="IqrCXrtKxaEDs8SVGuVz-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;rounded=1;shadow=1;" parent="IqrCXrtKxaEDs8SVGuVz-6" vertex="1">
-          <mxGeometry x="88.75" y="90" width="32.5" height="80" as="geometry" />
+          <mxGeometry x="90" y="90" width="31.25" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IqrCXrtKxaEDs8SVGuVz-8" value="1. Start" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#0000CC;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="IqrCXrtKxaEDs8SVGuVz-1" target="IqrCXrtKxaEDs8SVGuVz-7" edge="1">
           <mxGeometry x="0.0025" relative="1" as="geometry">
@@ -46,7 +46,7 @@
         <mxCell id="So9lpCZKGh69Al9hTp2r-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;sketch=1;curveFitting=1;jiggle=2;shadow=1;rounded=1;" parent="So9lpCZKGh69Al9hTp2r-1" vertex="1">
           <mxGeometry x="72.5" y="370" width="35" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="So9lpCZKGh69Al9hTp2r-17" value="Strategy" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#0050ef;strokeColor=#001DBC;" parent="So9lpCZKGh69Al9hTp2r-1" source="So9lpCZKGh69Al9hTp2r-15" target="So9lpCZKGh69Al9hTp2r-15" edge="1">
+        <mxCell id="So9lpCZKGh69Al9hTp2r-17" value="Strategy" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#0050ef;strokeColor=#001DBC;shadow=1;labelBorderColor=default;textShadow=1;" parent="So9lpCZKGh69Al9hTp2r-1" source="So9lpCZKGh69Al9hTp2r-15" target="So9lpCZKGh69Al9hTp2r-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="130" y="390" as="sourcePoint" />
             <Array as="points">
