@@ -167,7 +167,7 @@
               <mxPoint x="850" y="572" />
               <mxPoint x="850" y="617" />
             </Array>
-            <mxPoint x="820" y="617" as="targetPoint" />
+            <mxPoint x="812" y="617" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0C4XjTxB40_fMro5eUvV-37" value="资产链赎回" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#0050ef;strokeColor=#001DBC;shadow=1;labelBorderColor=default;textShadow=1;fontColor=#000099;" parent="1" edge="1">
