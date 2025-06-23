@@ -139,7 +139,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0C4XjTxB40_fMro5eUvV-30" value="&lt;font style=&quot;color: rgb(153, 0, 77);&quot;&gt;2.2.跨链Transfer&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(153, 0, 77);&quot;&gt;忽略资管流程&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;curved=0;rounded=1;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#99004D;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;endFill=1;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+        <mxCell id="0C4XjTxB40_fMro5eUvV-30" value="&lt;font style=&quot;color: rgb(153, 0, 77);&quot;&gt;2.2.跨链Transfer&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(153, 0, 77);&quot;&gt;省略资管交互&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;endSize=8;curved=0;rounded=1;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#99004D;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;endFill=1;dashed=1;dashPattern=8 8;" parent="1" edge="1">
           <mxGeometry x="0.0117" y="22" relative="1" as="geometry">
             <mxPoint x="575" y="758" as="targetPoint" />
             <mxPoint as="offset" />
