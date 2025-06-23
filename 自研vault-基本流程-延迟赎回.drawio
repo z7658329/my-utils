@@ -213,7 +213,7 @@
         <mxCell id="GY5n9D2khv0RNSYNAAyy-7" value="n" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#000099;" vertex="1" parent="1">
           <mxGeometry x="235" y="245" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GY5n9D2khv0RNSYNAAyy-10" value="adddress + amount" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#006600;" vertex="1" parent="1">
+        <mxCell id="GY5n9D2khv0RNSYNAAyy-10" value="adddress/amount" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#006600;" vertex="1" parent="1">
           <mxGeometry x="311" y="373" width="242" height="31" as="geometry" />
         </mxCell>
       </root>
